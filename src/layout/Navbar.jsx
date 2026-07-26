@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 const navLinks = [
     {href: "#about", label: "About"},
     {href: "#projects", label: "Projects"},
-    {href: "#testimonials", label: "Testimonials"},
     {href: "#experience", label: "Experience"},
+    {href: "#testimonials", label: "Testimonials"}
 ]
 
 export const Navbar = () => {
@@ -19,7 +19,7 @@ export const Navbar = () => {
         }
         window.addEventListener("scroll", handleScroll)
 
-    return () => window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
     return (
