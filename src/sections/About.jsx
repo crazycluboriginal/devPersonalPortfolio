@@ -11,7 +11,7 @@ const highlights = [
     icon: Rocket,
     title: "Analysis",
     description:
-      "Solving complex problems with great ease.",
+      "Solving complex problems with great ease with the help of articiial intelligence.",
   },
   {
     icon: Users,
@@ -22,7 +22,7 @@ const highlights = [
     icon: Lightbulb,
     title: "Innovation",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Sticking to the game and never running out of cool ideas to put on my resumse.",
   },
 ];
 
@@ -34,22 +34,18 @@ export const About = () => {
           {/* Left Column */}
           <div className="space-y-8">
             <div className="animate-fade-in">
-              <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
-                About Me
-              </span>
+              <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">About Me</span>
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
               Building the future,
-              <span className="font-serif italic font-normal text-white">
-                {" "}
-                one component at a time.
+              <span className="font-serif italic font-normal text-white"> one component at a time.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
+                I'm a passionate in the field of finance with over 5 years of
                 experience crafting digital products that make a difference. My
                 journey started with a curiosity for how things work on the web,
                 and it has evolved into a deep expertise in modern frontend
