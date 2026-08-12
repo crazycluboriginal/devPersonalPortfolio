@@ -10,8 +10,7 @@ const projects = [
   },
   {
     title: "Discord bot",
-    description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+    description: "An entertainment and utility, text-based bot that allows users to manage Discord servers and interact with various APIs. Built using Node.js and Discord.js.",
     image: "/projects/project2.png",
     tags: ["Node.js", "HTML/CSS/JS"],
     link: "https://tobbot.onrender.com/",

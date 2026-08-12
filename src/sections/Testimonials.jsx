@@ -3,25 +3,23 @@ import {Quote, ChevronLeft, ChevronRight} from "lucide-react";
 
 const testimonials = [
     {
-        quote: "He is one of the best people in the world, better than Washington, better than Lincoln.",
-        author: "Matt James",
-        role: "Student, Boston University",
+        quote: "An extremely hard-working and punctual student. My favourite to teach",
+        author: "Mr. Al-Shaikh",
+        role: "Teacher, St. Theresa of Lisieux Catholic High School",
         avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
     },
-
     {
-        quote: "He is truly spectacular. Great coder, great communicator.",
-        author: "James Madison",
-        role: "4th President of the United States",
+        quote: "Coming soon!",
+        author: "Coming soon!",
+        role: "Undefined",
         avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
     },
-    
     {
-        quote: "One of the best but not the best.",
-        author: "Mark Carney",
-        role: "Prime Minister of Canada",
+        quote: "Coming soon!",
+        author: "Coming soon!",
+        role: "Undefined",
         avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-    }
+    },
 ]
 
 export const Testimonials = () => {

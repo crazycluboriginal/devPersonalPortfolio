@@ -9,7 +9,7 @@ const skills = [
     "Vercel",
     "GitHub",
     "Python for Finance",
-    "NumPY",
+    "SQL",
     "Lua",
     "React",
     "CSS/HTML/JS",
