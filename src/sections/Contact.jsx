@@ -87,14 +87,14 @@ export const Contact = () => {
             Get In Touch
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Let's build{" "}
+            Want to work together?{" "}
             <span className="font-serif italic font-normal text-white">
-              something great.
+              Let's build something great.
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Have a project in mind? I'd love to hear about it. Send me a message
-            and let's discuss how we can work together.
+            Have a position or project in mind? I'd love to hear about it. Send me a message
+            and let's discuss how we can make it work.
           </p>
         </div>
         

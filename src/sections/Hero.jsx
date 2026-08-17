@@ -56,11 +56,11 @@ export const Hero = () => {
                 {/* Headline */}
                     <div className="space-y-4">
                         <h1 className="text-5xl md:text-6xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
-                            Learning <span className="text-primary glow-text">lifelong lessons</span><br/>with the help of <br/><span className="font-serif italic font-normal text-white">Artificial Intelligence</span>
+                            A <span className="text-primary glow-text">lifelong learner</span><br/> driven by <br/><span className="font-serif italic font-normal text-white">passion and expertise</span>
                         </h1>
                     {/* Paragraph */}
                         <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                            I'm a passionate student exploring the intersection of economics and artificial intelligence.
+                            I'm a passionate student at the University of Toronto exploring the intersection of finance, economics and technology.
                         </p>
                 </div>
 

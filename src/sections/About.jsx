@@ -3,26 +3,26 @@ import { Code, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code,
-    title: "Clean Code",
+    title: "Programming",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Proficient in data analysis languages such as SQL and Python, as well as web development frameworks. This allows me to create practical solutions for various projects that can be implemented on the web.",
   },
   {
     icon: Rocket,
-    title: "Analysis",
+    title: "Problem Solving",
     description:
-      "Solving complex problems with great ease with the help of articiial intelligence.",
+      "As a web development teacher, I identify problems and develop solutions for students to improve their coding skills.",
   },
   {
     icon: Users,
     title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    description: "Coordinated with a team in my school's Environmental Council to educate the student body about sustainable living.",
   },
   {
     icon: Lightbulb,
     title: "Innovation",
     description:
-      "Sticking to the game and never running out of cool ideas to put on my resumse.",
+      "Developing efficient solutions to modern challenges such as creating a system for users to check the weather right in their Discord App.",
   },
 ];
 
@@ -38,24 +38,22 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
-              <span className="font-serif italic font-normal text-white"> one component at a time.
+              The transferrable skills that
+              <span className="font-serif italic font-normal text-white"> build the future.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate in the field of finance with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                As a student of Rotman Commerce in the University of Toronto and a 
+                self-taught programmer for many years, 
+                I am passionate in exploring how fields of finance and technology intersect.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                My mission is to deliver ethical principles to all of society.
+                My mission is to create efficient and sustainable solutions to modern-day financial challenges through the use of technology and innovation.
               </p>
             </div>
           </div>
