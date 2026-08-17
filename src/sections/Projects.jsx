@@ -3,7 +3,7 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
     title: "Roblox Game",
-    description: "Designed and developed an interactive town and city exploration game with LUA featuring automated traffic systems, building lighting systems, and usable vehicles (including bikes, cars, trains and planes.",
+    description: "Designed and developed an interactive town and city exploration game with LUA featuring automated traffic systems, building lighting systems, and usable vehicles (including bikes, cars, trains and planes).",
     image: "/projects/project1.png",
     tags: ["LUA", "Urban Development", "Roblox Studio"],
     link: "#",
