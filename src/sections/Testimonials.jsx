@@ -3,8 +3,8 @@ import {Quote, ChevronLeft, ChevronRight} from "lucide-react";
 
 const testimonials = [
     {
-        quote: "An extremely hard-working and punctual student. My favourite to teach",
-        author: "Mr. Al-Shaikh",
+        quote: "Quote",
+        author: "Placeholder",
         role: "Teacher, St. Theresa of Lisieux Catholic High School",
         avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
     },
