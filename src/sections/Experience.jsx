@@ -45,9 +45,9 @@ export const Experience = () => {
         {/* Section Header */}
         <div className="maxw-3xl mb-16">
             <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">Experience</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fad-in animation-delay-100 text-secondary-foreground">My
-                <span className="font-serif italic font-normal text-white"> Career Journey</span></h2>
-            <p className="text-muted-foreground-animate-fade-in animation-delay-200"> A timeline of my professional growth, from a cuurious beginner to a leading student who builds products at scale.</p>
+            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">My
+                <span className="font-serif italic font-normal text-white animate-fade-in animation-delay-200"> Career Journey</span></h2>
+            <p className="text-muted-foreground animate-fade-in animation-delay-300"> A timeline of my professional growth, from a cuurious beginner to a leading student who builds products at scale.</p>
         </div>
         {/* Timeline */}
         <div className="relative">

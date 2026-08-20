@@ -46,7 +46,7 @@ export const Testimonials = () => {
         <div className="max-w-4xl mx-auto">
             <div className="relative">
                 {/* Main testimonial */}
-                <div className="glass p-8 rounded-3xl md:p-12 glow-border animate-fade-in animation-delay-200">
+                <div className="glass p-10 rounded-3xl md:p-12 glow-border animate-fade-in animation-delay-200">
                     <div className="absolute -top-4 left-8 w-12 h-12 rounded-full bg-primary flex items-center justify-center">
                         <Quote className="w-6 h-6 text-primary-foreground"/></div>
                     <blockquote className="text-xl md:text-2xl font-medium leading-relaxed mb-8 pt-4">"{testimonials[activeIdx].quote}"</blockquote>
