@@ -1,3 +1,8 @@
+import {
+    FaGithub,
+    FaLinkedin,
+    FaInstagram
+} from "react-icons/fa";
 import {Button} from "@/components/Button";
 import { ChevronDown, ArrowRight, Download} from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
@@ -79,7 +84,26 @@ export const Hero = () => {
                     </AnimatedBorderButton>
                     </a>
                 </div>
-
+                {/* Social Links */}
+                <div className="flex items-center gap-4 mt-6 animate-fade-in animation-delay-400 ">
+                    <span className="text-sm text-muted-foreground">Follow me:</span>
+                    {[
+                        {icon : FaGithub, href: "https://github.com/crazycluboriginal"},
+                        {icon : FaLinkedin, href: "https://linkedin.com/in/ethan--leung"},
+                        {icon : FaInstagram, href: "https://instagram.com/vectorgraphicz"}
+                    ].map((social, idx) => (
+                        <a
+                            key={idx}
+                            href={social.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
+                            target="_blank"
+                        >
+                            {<social.icon className="w-5 h-5"/>}
+                        </a>
+                    ))} 
+                </div>
     
                 </div>
                 {/* Right column - profile image */}

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import { Navbar } from "@/layout/Navbar";
+import { Footer } from "@/layout/Footer";
 import { Hero } from "@/sections/Hero";
 import { Projects } from "@/sections/Projects";
 import { About } from "@/sections/About";
@@ -21,6 +21,7 @@ const Home = () => {
                 <Testimonials />
                 <ContactMe />
             </main>
+            <Footer />
         </>
     );
 };
@@ -32,6 +33,7 @@ const ContactPage = () => {
             <main>
                 <Contact />
             </main>
+            <Footer />
         </>
     );
 };

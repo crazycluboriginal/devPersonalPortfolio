@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import {Button} from "@/components/Button";
 export const ContactMe = () => {
     return <section id="contact-me" className="py-32 relative overflow-hidden">
@@ -26,7 +27,7 @@ export const ContactMe = () => {
     <div className="text-center">
         <a href="/contact">
             <Button size="lg">
-                Contact me
+                Contact me <ArrowUpRight className="w-5 h-5" />
             </Button>
         </a>
     </div>

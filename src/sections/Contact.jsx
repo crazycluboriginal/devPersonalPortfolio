@@ -76,6 +76,7 @@ export const Contact = () => {
     }
 
     return <section id="contact" className="py-32 relative overflow-hidden">
+      <head><title>Contact - Ethan Leung</title></head>
         {/* Background Image */}
         <div className="absolute inset-0">
             <img src="/FloatingEs.png" 
