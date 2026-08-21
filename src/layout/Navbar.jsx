@@ -3,10 +3,10 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const navLinks = [
-    {href: "#about", label: "About", title: "About — Ethan Leung"},
-    {href: "#projects", label: "Projects", title: "Projects — Ethan Leung"},
-    {href: "#experience", label: "Experience", title: "Experience — Ethan Leung"},
-    {href: "#testimonials", label: "Testimonials", title: "Testimonials — Ethan Leung"}
+    {href: "/#about", label: "About", title: "About — Ethan Leung"},
+    {href: "/#projects", label: "Projects", title: "Projects — Ethan Leung"},
+    {href: "/#experience", label: "Experience", title: "Experience — Ethan Leung"},
+    {href: "/#testimonials", label: "Testimonials", title: "Testimonials — Ethan Leung"}
 ]
 
 export const Navbar = () => {
@@ -46,7 +46,7 @@ export const Navbar = () => {
             </div>
             {/* CTA Button */}
             <div className="hidden md:block">
-                <a href="#contact">
+                <a href="/contact">
                 <Button size="sm">Contact Me</Button>
                 </a>
             </div>
