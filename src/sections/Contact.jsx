@@ -76,6 +76,15 @@ export const Contact = () => {
     }
 
     return <section id="contact" className="py-32 relative overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+            <img src="/FloatingEs.png" 
+            alt="Hero Image" 
+            className="w-full h-full object-cover opacity-40"/>
+            <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background"/>
+        </div>
+
+
         <div className="absolute top-0 left-0 w-full h-full">
             <div className="absolute top-1/4 left-1/4 w-96 bg-primary/5 rounded-full blur-3xl"/>
             <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-highlight/5 rounded-full blur-3xl"/>

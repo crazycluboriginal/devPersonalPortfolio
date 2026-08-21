@@ -21,7 +21,7 @@ export const Projects = () => {
     return <section id="projects" className="py-32 relative overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
-            <img src="/Projects.png" 
+            <img src="/FloatingEs.png" 
             alt="Hero Image" 
             className="w-full h-full object-cover opacity-40"/>
             <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background"/>
