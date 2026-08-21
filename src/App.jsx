@@ -7,6 +7,7 @@ import { About } from "@/sections/About";
 import { Testimonials } from "@/sections/Testimonials";
 import { Experience } from "@/sections/Experience";
 import { Contact } from "@/sections/Contact";
+import { ContactMe } from "@/sections/ContactMe";
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
                 <Projects />
                 <Experience />
                 <Testimonials />
+                <ContactMe />
             </main>
         </>
     );
