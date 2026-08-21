@@ -12,8 +12,8 @@ const experiences = [
         period: "2022 - 2026",
         role: "Student",
         company: "St. Theresa of Lisieux Catholic High School",
-        description: "Environmental council, physics club, astronomy club",
-        technologies: ["Collaboration", "Problem Solving", "Leadership"],
+        description: "Activties and Societies: Environmental council, physics club, astronomy club",
+        technologies: ["Event Management", "Problem Solving", "Leadership"],
         current: false,
     },
 
@@ -22,16 +22,16 @@ const experiences = [
         role: "Vice President",
         company: "Algorithm Alchemists",
         description: "Led a nonprofit organization providing free coding education to dozens of students",
-        technologies: ["Javscript", "HTML/CSS/JS", "TailwindCSS", "React", "Python"],
+        technologies: ["Teaching", "JavaScript", "HTML/CSS/JS", "TailwindCSS", "React", "Python"],
         current: false,
     },    
 
     {
-        period: "2020 - 2025",
-        role: "Game Developer",
-        company: "Roblox Corporation",
-        description: "Developed Bloxtown [Showcase]",
-        technologies: ["Lua", "Roblox Studio"],
+        period: "2024 - 2025",
+        role: "Vacation Bible School Activity Leader",
+        company: "Our Lady Queen of the World Parish",
+        description: "Led groups of elementary school children in fun and educational science activities, fostering a positive and engaging environment.",
+        technologies: ["Teaching", "Group Leadership"],
         current: false,
     },
 
@@ -44,9 +44,9 @@ export const Experience = () => {
     <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
         <div className="maxw-3xl mb-16">
-            <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">Experience</span>
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">My
-                <span className="font-serif italic font-normal text-white animate-fade-in animation-delay-200"> Career Journey</span></h2>
+            <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">CAREER JOURNEY</span>
+            <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">Education and
+                <span className="font-serif italic font-normal text-white animate-fade-in animation-delay-200"> Experience</span></h2>
             <p className="text-muted-foreground animate-fade-in animation-delay-300"> A timeline of my professional growth, from a cuurious beginner to a leading student who builds products at scale.</p>
         </div>
         {/* Timeline */}

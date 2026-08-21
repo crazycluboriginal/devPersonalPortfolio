@@ -33,7 +33,9 @@ export const Projects = () => {
         <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
       {/* Section Header */}
         <div className="text-center mx-auto max-w-3xl mb-16">
-            <span className="text-secondary-foreground text-sm font-medium tracking wider uppercase animate-fade-in"></span>
+            <div className="animate-fade-in">
+              <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">FEATURED WORK</span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">My portfolio of
                 <span className="font-serif italic font-normal text-white"> Projects</span></h2>
             <p className="text-muted-foreground animate-fade-in animation-delay-200">
