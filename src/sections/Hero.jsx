@@ -4,9 +4,10 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
     "Teamwork",
-    "Problem-solving",
+    "Event Management",
+    "Teaching",
+    "Problem solving",
     "Mongo-DB",
-    "Vercel",
     "GitHub",
     "Python for Finance",
     "SQL",
