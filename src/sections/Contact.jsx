@@ -77,14 +77,35 @@ export const Contact = () => {
 
     return <section id="contact" className="py-32 relative overflow-hidden">
       <head><title>Contact - Ethan Leung</title></head>
-        {/* Background Image */}
-        <div className="absolute inset-0">
-            <img src="/FloatingEs.png" 
-            alt="Hero Image" 
-            className="w-full h-full object-cover opacity-40"/>
-            <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background"/>
-        </div>
 
+        {/* Es*/}
+        <div>
+            {[...Array(30)].map((_, i) => {
+                const col = i % 6;
+                const row = Math.floor(i / 6);
+                const cellWidth = 100 / 6;
+                const cellHeight = 100 / 5;
+                const left = col * cellWidth + Math.random() * cellWidth * 0.5;
+                const top = row * cellHeight + Math.random() * cellHeight * 0.5;
+                return (
+                    <img
+                        src="/FloatingE.png"
+                        draggable="false"
+                        key={i}
+                        className="absolute w-15 h-15 rounded-full select-none pointer-events-none will-change-transform"
+                        style={{
+                            left: `${left}%`,
+                            top: `${top}%`,
+                            opacity: 0.15 * (1 - top / 90),
+                            animation: `slow-drift ${
+                                15 + Math.random() * 30
+                            }s ease-in-out infinite`,
+                            animationDelay: `${Math.random() * 5}s`,
+                        }}
+                    />
+                );
+            })}
+        </div>
 
         <div className="absolute top-0 left-0 w-full h-full">
             <div className="absolute top-1/4 left-1/4 w-96 bg-primary/5 rounded-full blur-3xl"/>

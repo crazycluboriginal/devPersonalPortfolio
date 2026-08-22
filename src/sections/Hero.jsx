@@ -95,7 +95,6 @@ export const Hero = () => {
                         <a
                             key={idx}
                             href={social.href}
-                            target="_blank"
                             rel="noopener noreferrer"
                             className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                             target="_blank"
@@ -123,7 +122,7 @@ export const Hero = () => {
                             {/*Stats badge*/}
                             <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
                                 <div className="text-5xl font-bold text-primary">5+</div>
-                                <div className="text-s text-foreground">Years exp</div>
+                                <div className="text-sm text-foreground">Recommendations</div>
                             </div>
                         </div>
                     </div>

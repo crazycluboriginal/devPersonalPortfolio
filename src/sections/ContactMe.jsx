@@ -2,10 +2,10 @@ import { ArrowUpRight } from "lucide-react";
 import {Button} from "@/components/Button";
 export const ContactMe = () => {
     return <section id="contact-me" className="py-32 relative overflow-hidden">
-    <div className="absolute top-0 left-0 w-full h-full">
-            <div className="absolute top-1/4 left-1/4 w-96 bg-primary/5 rounded-full blur-3xl"/>
-            <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-highlight/5 rounded-full blur-3xl"/>
-         </div>
+        <div className="absolute top-0 left-0 w-full h-full">
+          <div className="absolute top-1/4 left-1/4 w-96 bg-primary/5 rounded-full blur-3xl"/>
+          <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-highlight/5 rounded-full blur-3xl"/>
+        </div>
         <div className = "container mx-auto px-6 relative z-10">
             {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-8">
@@ -25,7 +25,7 @@ export const ContactMe = () => {
         </div>
     </div>
     <div className="text-center">
-        <a href="/contact">
+        <a href="/contact" className="inline-block animate-fade-in animation-delay-300">
             <Button size="lg">
                 Contact me <ArrowUpRight className="w-5 h-5" />
             </Button>
